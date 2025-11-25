@@ -36,7 +36,7 @@ This project includes two key visualization deliverables, showcasing both execut
 1. Power BI Executive KPI Dashboard
 (This dashboard displays the core DAX KPIs and trends.)
 
-[Power BI/Superstore_Dashboard.pdf]
+[https://github.com/sameernk2015-byte/Superstore-Sales-Analytics-Portfolio/tree/main/Power%20BI]
 
 2. Tableau Logistics Story
 (This story presents the interactive geospatial analysis of shipping efficiency.)
