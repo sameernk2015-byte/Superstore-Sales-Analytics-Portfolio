@@ -41,4 +41,4 @@ This project includes two key visualization deliverables, showcasing both execut
 2. Tableau Logistics Story
 (This story presents the interactive geospatial analysis of shipping efficiency.)
 
-[https://public.tableau.com/shared/BHZB6CW29?:display_count=n&:origin=viz_share_link}
+[Tableau/Dashboard}
