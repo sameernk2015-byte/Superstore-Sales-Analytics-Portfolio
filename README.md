@@ -2,23 +2,25 @@
 End-to-end analysis of retail sales data using SQL, R, Power BI, and Tableau.
 
 Project Overview -
-This project performs an end-to-end analysis of the Superstore sales dataset (2014-2018) to provide actionable recommendations focused on optimizing revenue streams and identifying logistics bottlenecks. The analysis successfully integrates five industry-standard tools to simulate a real-world data pipeline, from raw data cleaning to executive-level reporting.
+This project analyzes the Superstore sales data from 2014–2018 to uncover ways to increase revenue and fix logistics delays. It uses five industry-standard tools to build a full data pipeline—from cleaning raw data to creating clear, executive-level insights.
 
 Technology Stack & Skills Demonstrated - 
-This project showcases mastery across the entire data lifecycle:
+This project demonstrates skills across the full data workflow:
 
-Excel: Used for the initial Data Audit and Feature Engineering. Specifically, Excel was used to clean inconsistent Postal Codes and calculate the crucial Delivery_Days column used for logistics analysis.
+Excel: Used for the initial data check and feature creation. Tasks included fixing inconsistent Postal Codes and calculating the important Delivery_Days column for logistics analysis.
 
-SQL (SQLite): Leveraged for Data Aggregation and segmentation. Efficient queries were written using GROUP BY, SUM(), and LIMIT to calculate core metrics like Total Revenue and Average Order Value (AOV).
+SQL (SQLite): Used for data aggregation and segmentation. Queries with GROUP BY, SUM(), and LIMIT helped compute key metrics such as Total Revenue and Average Order Value (AOV).
 
-R (ggplot2): Applied to conduct Exploratory Data Analysis (EDA). The R phase demonstrated the ability to analyze sales distribution (histogram) and detect seasonality through time-series visualizations.
+R (ggplot2): Used for exploratory data analysis. R visualized sales distribution through histograms and identified seasonal patterns using time-series charts.
 
-Power BI: Utilized for advanced Business Intelligence and KPI reporting. A core aspect involved writing production-ready DAX measures:
-Total Revenue: SUM(Superstore_Cleaned[Sales])
+Power BI: Used for advanced BI dashboards and KPI reporting. This included writing DAX measures such as:
+
+Total Revenue: 
+SUM(Superstore_Cleaned[Sales])
 AOV: DIVIDE([Total Revenue], [Total Orders])
-AOV Benchmark: Used CALCULATE and ALL to establish a static, company-wide AOV for performance comparison.
+A company-wide AOV benchmark was created with CALCULATE and ALL for performance comparison.
 
-Tableau: Employed for Geospatial Analysis and Storytelling. The final Tableau story links high-level revenue figures to specific logistics performance issues on an interactive map.
+Tableau: Used for geospatial analysis and storytelling. The final Tableau story connects overall revenue insights with specific delivery performance issues using an interactive map.
 
 Key Findings & Recommendations - 
 
